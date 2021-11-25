@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.displayGridSize {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300px;
+}
+
+.containerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px black solid;
+    height: 960px;
+    width: 960px;
+}
+
+.containerStyle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1 1 auto; 
+}
+
+.gridBox {
+    width: 50px;
+    overflow: auto;
+    /* border: 1px black solid; */
+    background-color: white;
+    flex: 1 1 auto;
+    transition: 0.3s;
+}
+
+.gridBox:hover {
+    background-color: tomato;
+}
+
+.resetButton {
+    border-radius: 4px;
+    font-size: 26px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
